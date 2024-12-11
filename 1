@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Tutoring Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Elite Tutoring</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Achieve Academic Excellence</h2>
+            <p>Personalized tutoring designed to help students excel in every subject.</p>
+            <a href="#services" class="btn-primary">Explore Services</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We are a team of experienced tutors dedicated to providing customized learning solutions for students of all levels. Whether you need help with STEM subjects, language arts, or test prep, our team is here to guide you every step of the way.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-list">
+                <div class="service-item">
+                    <h3>In-Person Tutoring</h3>
+                    <p>Convenient tutoring sessions at local libraries or other suitable venues.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Virtual Tutoring</h3>
+                    <p>Interactive online sessions tailored to each student's needs.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Group Sessions</h3>
+                    <p>Collaborative learning environments with small groups of peers.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Test Preparation</h3>
+                    <p>Comprehensive coaching for SAT, ACT, and other standardized tests.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>What Our Students Say</h2>
+            <blockquote>
+                <p>"Thanks to Elite Tutoring, I went from struggling in math to acing my exams. The tutors are amazing!"</p>
+                <cite>- Alex, Grade 11 Student</cite>
+            </blockquote>
+            <blockquote>
+                <p>"The personalized attention I received was a game changer. Highly recommend their services!"</p>
+                <cite>- Priya, High School Student</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Ready to get started? Reach out to us today!</p>
+            <form action="/submit" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Elite Tutoring. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
